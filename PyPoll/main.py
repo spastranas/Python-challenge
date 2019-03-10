@@ -90,6 +90,7 @@ with open(output_path, 'w', newline='') as csvfile:
 
         csvwriter.writerow([MasterDictonary[n]['Name']+ ": " + str(MasterDictonary[n]['Percentage Votes'])+".000% ("+ str(MasterDictonary[n]['VoterCount'])+")" ])
         n -= 1
-    csvwriter.writerow([("Winner: " +(Winner))])    
+    csvwriter.writerow([("Winner: " +(Winner))])  
+      
     
     
